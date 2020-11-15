@@ -84,10 +84,10 @@ topics:
   - title: Split and join
     theory_id: 6972
   4:
-  - title: Program execution
-    theory_id: 6047
   - title: Errors
     theory_id: 6052
+  - title: Program execution
+    theory_id: 6047
   - title: While loop
     theory_id: 5940
   - title: Loop control statements

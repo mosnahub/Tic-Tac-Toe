@@ -67,7 +67,7 @@ def check(xo):
     elif xo[0][0] == xo[1][0] == xo[2][0] and xo[0][0] != ' ':  # left
         return f"{xo[0][0]} wins"
     elif xo[0][1] == xo[1][1] == xo[2][1] and xo[0][1] != ' ':  # center
-        return f"{xo[1][0]} wins"
+        return f"{xo[0][1]} wins"
     elif xo[0][2] == xo[1][2] == xo[2][2] and xo[0][2] != ' ':  # right
         return f"{xo[0][2]} wins"
     elif xo[0][0] == xo[1][1] == xo[2][2] and xo[0][0] != ' ':  # diagonal left to right
